@@ -44,7 +44,7 @@ modules:
 
 ```bash
 # Register the marketplace
-lola market add general https://raw.githubusercontent.com/mrbrandao/lola-market/main/general-market.yml
+lola market add general https://raw.githubusercontent.com/RedHatProductSecurity/lola-market/main/general-market.yml
 
 # List registered marketplaces
 lola market ls
