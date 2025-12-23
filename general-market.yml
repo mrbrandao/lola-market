@@ -1,56 +1,32 @@
-# Lola Marketplace Registry
-#
-# A curated catalog of Lola modules for AI assistants
-#
-# Add your module by submitting a PR! See CONTRIBUTING.md
+name: "Lola General Marketplace"
+description: "Official curated collection of Lola modules"
+version: "1.0.0"
 
-marketplace:
-  version: "1.0.0"
-  description: "Curated registry of Lola modules"
+modules:
+  - name: "lola-manager"
+    description: "Build Lola modules with workflow guidance"
+    version: "0.1.0"
+    repository: "https://github.com/mrbrandao/lola-manager"
+    tags:
+      - "module-builder"
+      - "workflow"
+      - "scaffolding"
 
-categories:
-  - name: "Module Development"
-    description: "Tools for creating and managing modules"
-    modules:
-      - name: "lola-manager"
-        repository: "https://github.com/mrbrandao/lola-manager"
-        description: "Build Lola modules with workflow guidance"
-        author: "Igor Brandao"
-        version: "0.1.0"
-        tags:
-          - "module-builder"
-          - "workflow"
-          - "scaffolding"
-        assistants:
-          - "claude-code"
-          - "cursor"
-          - "gemini-cli"
-
-  - name: "Learning & Examples"
-    description: "Demonstrations and tutorials"
-    modules:
-      - name: "chef-buddy"
-        repository: "https://github.com/mrbrandao/cheff-buddy"
-        description: "Lazy context loading demonstration"
-        author: "Igor Brandao"
-        version: "0.1.0"
-        tags:
-          - "demo"
-          - "lazy-loading"
-          - "tutorial"
-        assistants:
-          - "cursor"
+  - name: "chef-buddy"
+    description: "Lazy context loading demonstration"
+    version: "0.1.0"
+    repository: "https://github.com/mrbrandao/cheff-buddy"
+    tags:
+      - "demo"
+      - "lazy-loading"
+      - "tutorial"
 
 # Example module entry:
 #
-#   - name: "your-module"
-#     repository: "https://github.com/username/repo"
-#     description: "Brief one-line description"
-#     author: "Your Name"
-#     version: "1.0.0"
-#     tags:
-#       - "tag1"
-#       - "tag2"
-#     assistants:
-#       - "claude-code"
-#       - "cursor"
+# - name: "your-module"
+#   description: "Brief one-line description"
+#   version: "1.0.0"
+#   repository: "https://github.com/username/repo"
+#   tags:
+#     - "tag1"
+#     - "tag2"
