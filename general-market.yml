@@ -11,6 +11,7 @@ modules:
       - "module-builder"
       - "workflow"
       - "scaffolding"
+      - "all"
 
   - name: "chef-buddy"
     description: "Lazy context loading demonstration"
@@ -20,6 +21,7 @@ modules:
       - "demo"
       - "lazy-loading"
       - "tutorial"
+      - "all"
 
 # Example module entry:
 #
